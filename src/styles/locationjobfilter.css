@@ -1,0 +1,33 @@
+.select-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 20px;
+}
+
+.filter-item {
+  padding: 10px 20px;
+  font-size: 22px;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.filter-item:hover {
+  background: #47b1bf;
+  color: white;
+}
+
+.active-item {
+  border-bottom: 5px solid #47b1bf;
+}
+
+@media screen and (max-width: 1000px) {
+  .filter-item {
+    font-size: 18px;
+  }
+
+  .active-item {
+    border-bottom: 2px solid #47b1bf;
+  }
+}

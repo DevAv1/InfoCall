@@ -1,0 +1,51 @@
+.contact-hero {
+  position: relative;
+  width: 100%;
+}
+
+.contact_mobile_cover__mobile {
+  display: none;
+}
+
+.contact-hero-container .contact_cover{
+  max-width: 100%;
+}
+
+.contact-hero-container .contact_mobile_cover__mobile {
+  display: none;
+}
+
+.contact-banner-text {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  font-size: 72px;
+}
+
+@media screen and (max-width: 1600px) {
+  .contact-banner-text {
+    font-size: 54px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .contact-hero-container .contact_mobile_cover__mobile {
+    display: block;
+    max-width: 100%;
+  }
+  .contact_cover {
+    display: none;
+  }
+  .contact-banner-text {
+    position: relative;
+    left: 0;
+    font-size: 22px;
+    text-align: center;
+    background-color:#47b1bf;
+    color: white;
+    display: inline-block;
+    padding: 20px 50px;
+    width: 100%;  
+  }
+
+}
+

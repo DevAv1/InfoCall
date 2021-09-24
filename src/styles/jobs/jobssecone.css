@@ -1,0 +1,123 @@
+.jobs-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%; 
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.jobs-list-header {
+  font-size: 42px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.jobs-list-subheader {
+  font-size: 32px;
+  text-align: center;
+}
+
+.position ul li {
+  font-size: 22px;
+}
+
+.open-jobs {
+  padding: 60px 0;
+  font-size: 24px;
+}
+
+.position {
+  display: flex;
+  flex-direction: column;
+}
+
+.position-title-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.position-title-wrapper i {
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.p-d-title {
+  font-weight: bolder;
+}
+.p-d-title-des {
+  padding: 10px 0;
+  font-weight: bolder;
+}
+
+.application form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.apply-btn-disabled {
+  display: none;
+  transition: 0.2s ease-in-out;
+}
+
+.policy-agreement {
+  font-size: 14px;
+}
+
+.job-border {
+  height: 1px;
+  margin: 30px 0;
+  background: black;
+}
+
+.privacy-text {
+  color: #47b1bf;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.application input {
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background: #e1e2e2;
+  margin: 5px 0;
+  max-width: 350px;
+}
+
+.policy {
+  margin-bottom: 10px;
+}
+.apply-btn {
+  padding: 5px 10px;
+  background-color:aqua;
+  color: white;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .jobs-list-header {
+    font-size: 32px;
+  
+  }
+  
+  .jobs-list-subheader {
+    font-size: 22px;
+    text-align: center;
+  }
+  .application form {
+    flex-direction: column;
+  }
+
+  .open-jobs {
+    font-size: 16px;
+  }
+
+  .p-d-title-des-wrapper ul li{
+    font-size: 14px;
+  }
+}
+
+
+

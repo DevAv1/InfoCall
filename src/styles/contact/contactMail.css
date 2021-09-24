@@ -1,0 +1,13 @@
+.contact-mail {
+  flex: 1;
+}
+
+.form_contactus {
+  min-width: 50%;
+}
+
+@media screen and (max-width: 1290px) {
+  .cp_title {
+    font-size: 26px;
+  }
+}

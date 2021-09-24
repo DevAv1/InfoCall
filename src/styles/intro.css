@@ -1,0 +1,41 @@
+.intro-container {
+  position: fixed;
+  top: 0;
+  z-index: 10000;
+  height: 100vh;
+  width: 100vw;
+  background: white;
+}
+
+.intro-container .intro-banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: introAnim 2s forwards;
+
+}
+
+.intro-banner img {
+  width: 400px;
+
+}
+
+.intro-container .welcome {
+  font-size: 52px;
+  text-align: center;
+}
+
+@keyframes introAnim {
+  from {
+    opacity: 1;
+  } to {
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .intro-banner img {
+    width: 300px;
+  }
+}

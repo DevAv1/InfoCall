@@ -1,0 +1,54 @@
+.jobs_hero {
+  position: relative;
+}
+
+.jobs_hero_container {
+  width: 100%;
+  height: 80vh;
+  background: url('../../assets/covers/career_cover.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.jobs-banner-text {
+  position: absolute;
+  width: 100%;
+  left: 10%;
+  top: 50%;
+  font-size: 72px;
+  color: black;
+  font-weight: bolder;
+  text-align: left;
+}
+
+.jobs-banner-text__mobile {
+  display: none;
+  color: white;
+  font-size: 24px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+@media screen and (max-width:700px) {
+  .jobs_hero_container {
+    background: url('../../assets/covers/big_cover_career_mobail.png');
+    background-position: center;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative
+  }
+
+}
+
+@media screen and (max-width:1000px) {
+    .jobs-banner-text {
+      display: none;
+    }
+    .jobs-banner-text__mobile {
+      display: flex;
+      justify-content: center;
+    }
+}

@@ -1,0 +1,17 @@
+.MuiDialog-paperWidthSm  {
+  max-width: 100% !important;
+}
+
+.MuiDialog-paperWidthSm p {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .MuiDialog-paperWidthSm p {
+    width: 100%;
+    font-size: 18px;
+  }
+}
+
