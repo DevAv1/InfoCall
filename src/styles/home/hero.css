@@ -1,23 +1,19 @@
+.hero_container {
+  position: relative;
+  display: flex;
+  height: 100vh;
+  background: url("../../assets/covers/home_cover_b.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
 .hero h1 {
   font-size: 70px;
   text-transform: uppercase;
   margin: 0;
   position: relative;
 }
-
-.hero_container {
-  position: relative;
-  display: flex;
-  height: 100vh;
-  background: url('../../assets/covers/home_cover_b.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  margin-top: 32px;
-  overflow: hidden;
-}
-
-
 .banner-text {
   position: absolute;
   left: 100px;
@@ -27,7 +23,7 @@
   font-size: 42px;
   text-shadow: 1px 1px 1px 1px black;
   text-align: left;
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo", sans-serif;
   text-align: left;
   direction: ltr;
 }
@@ -48,11 +44,11 @@
 .marked_text {
   font-size: 22px;
   text-align: center;
-  background-color:#47b1bf;
+  background-color: #47b1bf;
   color: white;
   display: inline-block;
   padding: 20px 50px;
-  width: 100%;  
+  width: 100%;
 }
 
 .banner-text p {
@@ -67,13 +63,12 @@
     height: auto;
     background-image: none;
     flex-direction: column;
-
   }
   .banner-text {
     font-size: 24px;
     text-align: center;
     position: relative;
-    padding: 30px 0px ;
+    padding: 30px 0px;
     left: 0;
     top: 0;
   }
@@ -86,7 +81,6 @@
     margin: 0 auto;
     max-width: 65%;
   }
-
 }
 
 @media screen and (max-width: 768px) {
@@ -99,8 +93,4 @@
   .banner-text {
     position: relative;
   }
-
 }
-
-
-

@@ -1,35 +1,29 @@
-import './App.css';
-import '../src/styles/utilities.css';
-import { useState, useEffect } from 'react';
-import { Header } from './components/Header';
-import { Home } from './pages/home/Home';
-import { About } from './pages/about/About';
-import { Jobs } from './pages/jobs/Jobs';
-import { Contact } from './pages/contact/Contact';
-import { Footer } from './components/Footer';
-import { Intro } from './components/Into';
-import { PrivacyPolicy } from './components/PrivacyPolicy';
-import { 
-  BrowserRouter as Router,
-  Route,
-  Switch,
-} from "react-router-dom";
+import "./App.css";
+import "../src/styles/utilities.css";
+import { useState, useEffect } from "react";
+import { Header } from "./components/Header";
+import { Home } from "./pages/home/Home";
+import { About } from "./pages/about/About";
+import { Jobs } from "./pages/jobs/Jobs";
+import { Contact } from "./pages/contact/Contact";
+import { Footer } from "./components/Footer";
+import { Intro } from "./components/Into";
+import { PrivacyPolicy } from "./components/PrivacyPolicy";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 export const App = () => {
-
-  const [ intro, setIntro ] = useState(true)
+  const [intro, setIntro] = useState(true);
   useEffect(() => {
     setTimeout(() => {
-      setIntro(!intro)
-    }, 2000)
-  }, [])
+      setIntro(!intro);
+    }, 2000);
+  }, []);
 
-  
   return (
-      <div className="App">
-        {intro ?
+    <div className="App">
+      {intro ? (
         <Intro />
-        :
+      ) : (
         <Router>
           <Header />
           <Switch>
@@ -41,7 +35,7 @@ export const App = () => {
           </Switch>
           <Footer />
         </Router>
-        }  
-      </div>
+      )}
+    </div>
   );
-}
+};

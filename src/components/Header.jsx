@@ -1,8 +1,9 @@
 import React, { useState, useContext } from 'react';
 import '../styles/header.css';
-import infoCallLogo from '../assets/infocall_logo2.png';
+// import InfoCallLogo from '../assets/infocall_logo2.png';
+import InfoCallLogoNew from '../assets/LogoInfoCall.png';
 import { Link } from 'react-router-dom';
-import mobileLogo from '../assets/mobileLogo.png';
+import MobileLogo from '../assets/mobileLogo.png';
 
 export const Header = () => {
 
@@ -52,8 +53,10 @@ export const Header = () => {
         </ul>
         <div className="logo" >
           <Link to="/">
-            <img src={infoCallLogo} alt="logo"/>
+            <img className="desktop-logo" src={InfoCallLogoNew} alt="logo"/>
+            <img className="mobile-logo" src={MobileLogo} alt="logo"/>
           </Link>
+          
         </div>
       </nav>
     </div>
