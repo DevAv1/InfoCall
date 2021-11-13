@@ -48,6 +48,9 @@ export const JobsSecOne = () => {
   ]);
 
   useEffect(() => {
+    console.log('modal is changes' , modal);
+  }, [modal])
+  useEffect(() => {
     console.log(`changed filter to ${filter}`);
   }, [filter]);
 
@@ -72,6 +75,7 @@ export const JobsSecOne = () => {
       <div className="jobs-list-subheader">
         השאירו פרטים לאחת המשרות ונחזור אליכם במידה ורלוונטי
       </div>
+      {modal && <PrivacyPolicy setModal={setModal} modal={modal} />}
       <LocationJobFilter jobFilter={jobFilter} filter={filter} />
       <div className="open-jobs">
         {(filter === 0 || filter === 1) &&
@@ -86,7 +90,6 @@ export const JobsSecOne = () => {
               onClick={() => jobToggleHandler(0)}
             ></i>
           </div>
-          {modal && <PrivacyPolicy setModal={setModal} modal={modal} />}
           {jobToggle[0].toggle && (
             <div className="position-description">
               <div className="p-d-title-des-wrapper">
@@ -147,7 +150,7 @@ export const JobsSecOne = () => {
               מובילה, בני ברק
             </div>
             <i
-              class="fas fa-chevron-circle-down"
+              className="fas fa-chevron-circle-down"
               onClick={() => jobToggleHandler(1)}
             ></i>
           </div>
@@ -356,7 +359,6 @@ export const JobsSecOne = () => {
               onClick={() => jobToggleHandler(6)}
             ></i>
           </div>
-          {modal && <PrivacyPolicy setModal={setModal} modal={modal} />}
           {jobToggle[6].toggle && (
             <div className="position-description">
               <div className="p-d-title-des-wrapper">

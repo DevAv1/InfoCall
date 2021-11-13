@@ -7,17 +7,14 @@ import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import { Button } from '@material-ui/core';
 
-export const PrivacyPolicy = ({ setModal }) => {
+export const PrivacyPolicy = ({ setModal, modal }) => {
   
-  const [open, setOpen] = useState(true);
-
   const handleClose = () => {
-    setOpen(false)
     setModal(false)
   }
   return (
     <Dialog
-      open={open}
+      open={modal}
       onClose={handleClose}
       aria-labelledby="alert-dialog-title"
       aria-describedby="alert-dialog-description"
