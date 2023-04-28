@@ -31,7 +31,9 @@ export const Footer = () => {
             <li className="footer_item" id="footer_title">צור קשר</li>
             <li >המלאכה 23, ראש העין</li>
             <li ><a href="tel:+972-54815117">054-4815117</a></li>
-            <li >Amit@infocall.co.il</li>
+            <li >Gius@infocall.co.il</li>
+            <li >מחלקה פיננסית</li>
+            <li >Finance@infocall.co.il</li>
           </ul>
         </div>
         <div className="col">
