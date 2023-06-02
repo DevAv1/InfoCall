@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import '../styles/dotsborder.css'
 
-export const DotsBorder = (props) => {
-
+export const DotsBorder = ({ icon }) => {
     return (
         <div className="dots-wrapper"> 
             <div className="dot"></div>
@@ -11,7 +10,7 @@ export const DotsBorder = (props) => {
             <div className="dot"></div>
             <div className="dot"></div>
             <div className="dot"></div>
-            <img src={props.icon} alt="icon"/>
+            {icon && <img src={icon} alt="icon"/>}
             <div className="dot"></div>
             <div className="dot"></div>
             <div className="dot"></div>

@@ -20,6 +20,11 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
+
+    @media screen and (max-width: 1700px) {
+      width: 100%
+
+    }
   }
   
   .team-desc {
@@ -28,21 +33,20 @@
     transition: 0.2s ease-in-out;
   }
   
-  .team-member-name {
-    font-weight: bolder;
-  }
-  
-  .team-member-position {
-    min-width: 180px;
-    padding: 10px 0;
-  }
-  
   .team-member {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 260px;
+    .team-member-name {
+      font-weight: bolder;
+    }
+    
+    .team-member-position {
+      min-width: 180px;
+      padding: 10px 0;
+    }
   }
   
   .team-wrapper img {
@@ -90,8 +94,7 @@
       width: 100%;
     }
     .team-member {
-      min-width: 120px;
-      min-height: 100px;
+      max-width: 140px;
     }
     .team-member:hover .team-desc {
       transform: translateY(-80px);

@@ -22,7 +22,7 @@ export const Team = () => {
       <div className="team-wrapper">
 
         <div className="team-member">
-            <img src={AmitGridish}/>
+            <img src={AmitGridish} alt="AmitGridish"/>
             <div className="team-member-hover-bg"></div>
             <div className="team-desc">
               <div className="team-member-name">עמית גרידיש</div>
@@ -31,7 +31,7 @@ export const Team = () => {
         </div>
         
         <div className="team-member">
-          <img src={AmitKamisa}/>
+          <img src={AmitKamisa} alt="AmitKamisa" />
           <div className="team-member-hover-bg"></div>
           <div className="team-desc">
             <div className="team-member-name">עמית כמיסה</div>
@@ -39,7 +39,7 @@ export const Team = () => {
           </div>
         </div>
         <div className="team-member">
-            <img src={Liat}/>
+            <img src={Liat} alt="Liat" />
             <div className="team-member-hover-bg"></div>
           <div className="team-desc">
             <div className="team-member-name">לימור אבניאל</div>
@@ -48,7 +48,7 @@ export const Team = () => {
         </div>
 
         <div className="team-member">
-          <img src={Yitav}/>
+          <img src={Yitav} alt="Yitav" />
           <div className="team-member-hover-bg"></div>
           <div className="team-desc">
             <div className="team-member-name">ייטב חדד</div>
@@ -57,7 +57,7 @@ export const Team = () => {
         </div>
 
         <div className="team-member">
-          <img src={Ben}/>
+          <img src={Ben}alt="Ben" />
           <div className="team-member-hover-bg"></div>
           <div className="team-desc">
             <div className="team-member-name">בן גרידיש</div>
@@ -66,7 +66,7 @@ export const Team = () => {
         </div>
         
         <div className="team-member">
-          <img src={Barak}/>
+          <img src={Barak} alt="Barak" />
           <div className="team-member-hover-bg"></div>
           <div className="team-desc">
             <div className="team-member-name">ברק בלסיאנו</div>
@@ -75,7 +75,7 @@ export const Team = () => {
         </div>
 
         <div className="team-member">
-            <img src={Carmit}/>
+            <img src={Carmit} alt="Carmit" />
             <div className="team-member-hover-bg"></div>
           <div className="team-desc">
             <div className="team-member-name">כרמית פיין</div>
@@ -84,7 +84,7 @@ export const Team = () => {
         </div>
 
         <div className="team-member">
-            <img src={Michael}/>
+            <img src={Michael} alt="Michael" />
             <div className="team-member-hover-bg"></div>
           <div className="team-desc">
             <div className="team-member-name">מיכאל בן דוד</div>
@@ -92,17 +92,13 @@ export const Team = () => {
           </div>
         </div>
         <div className="team-member">
-            <img src={Limor}/>
+            <img src={Limor} alt="Limor" />
             <div className="team-member-hover-bg"></div>
           <div className="team-desc">
             <div className="team-member-name">ליאת להנר</div>
             <div className="team-member-position">מנהלת מטה מקצועי</div>
           </div>
         </div>
-    
-
-      
-
         <div className="team-member">
             <img src={Shay}/>
             <div className="team-member-hover-bg"></div>
@@ -111,6 +107,7 @@ export const Team = () => {
             <div className="team-member-position">מנהלת מוקד נשר</div>
           </div>
         </div>
+    
         
       </div>
     </div>

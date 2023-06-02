@@ -35,7 +35,12 @@
   }
   .info_box_img {
     flex: 1;
-  
+    .tech-img {
+      filter: sepia(300%) hue-rotate(150deg) saturate(450%);
+    }
+    .AI-img {
+      filter: grayscale(50%)
+    }
   }
   
   .info_box_img img {

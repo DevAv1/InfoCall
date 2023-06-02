@@ -59,7 +59,7 @@ export const Footer = () => {
           <ul className="footer-call">
             <a href="tel:+972-54815117">
               <li id="footer_title">חייגו אלינו</li>
-              <i class="fas fa-phone"></i>
+              <i className="fas fa-phone"></i>
             </a>
           </ul>
         </div>

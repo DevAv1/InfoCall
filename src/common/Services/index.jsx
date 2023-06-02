@@ -6,6 +6,8 @@ import Sales  from '../../assets/moked_mechirot.png';
 import Shirut from '../../assets/moked_shirut.png';
 import Shimur from '../../assets/moked_shimur.png';
 import Shetach from '../../assets/sochen_shetach.png';
+import Tech from '../../assets/tech.jpg';
+import AI from '../../assets/AI.jpg';
 import Icon1 from '../../assets/icon_1.png'
 import Icon2 from '../../assets/icon_2.png'
 import Icon3 from '../../assets/icon_3.png'
@@ -67,6 +69,35 @@ export const Services = () => {
             <p>
              ניהול סוכני שטח הוא אחד מהתחומים המורכבים והמאתגרים. <br/>
              ל- InfoCall ניסיון רב בהובלת מערכי שטח לתוצאות,החל מקליטת עובדים מתאימים ועד שלב ביצועים תוך הקפדה על איכות גבוהה.
+            </p>
+          </div>
+        </div>
+        <div className="info_box">
+          <div className="info_box_img">
+            <img className="tech-img" src={Tech} />
+          </div>
+          <DotsBorder icon={Icon4}/>
+          <div className="info_box_content">
+            <h2 >תחליף טכנולוגי לנציגים ונתבים - השירות מאפשר מתן מענה טלפוני באמצעות בינה מלאכותית</h2>
+            <p>
+              מענה מיידי ללא כל זמן המתנה 24/7
+              שיפור משמעותי של זמני המתנה במוקד
+              שיטוח תפריטים במענה קולי, העברה ליעד הנכון בצעד אחד בלבד
+              הגדלת השירות העצמי ללקוח באמצעות דיבור חופשי
+              יכולת לטפל באותה שיחה במספר בקשות של הלקוח
+              תמיכה במגוון ערוצי קול וטקסט בטלפון, WHATSAPP,MESSENGER  ועוד..
+            </p>
+          </div>
+        </div>
+        <div className="info_box">
+          <div className="info_box_img">
+            <img className="AI-img" src={AI} />
+          </div>
+          <DotsBorder icon={Icon4}/>
+          <div className="info_box_content">
+            <h2 >מערכת טכנולוגית להגדלת ביקוש למכירות - Pablico</h2>
+            <p>
+              המערכת הטכנולוגית מאפשרת ליצור חיבור בין אנשים ובכך להגדיל את כמות הלידים לשרותים ולהגדלת מכירות.
             </p>
           </div>
         </div>

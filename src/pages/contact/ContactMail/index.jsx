@@ -2,6 +2,8 @@ import React from 'react'
 import "./style.scss";
 import { Button } from '@material-ui/core';
 import emailjs from 'emailjs-com';
+import { TextArea } from '../../../business/TextArea';
+import { TextInput } from '../../../business/TextInput';
 
 export const ContactMail = () => {
 
@@ -22,9 +24,9 @@ export const ContactMail = () => {
        <div className="contact_sec contact_page_sec">
         <div className="contact_title cp_title">בואו נדבר...</div>
         <form className="form form_contactus" onSubmit={sendEmail}>
-          <input className="contact_input" type="text" name="user_name" placeholder="שם מלא" required></input>
-          <input className="contact_input" type="text" name="user_phone" placeholder="טלפון"></input>
-          <textarea className="contact_input" name="message" id="message" placeholder="שתפו אותנו במה נוכל לעזור..." required></textarea>
+          <TextInput className="contact_input" type="text" name="user_name" label="שם מלא" required></TextInput>
+          <TextInput className="contact_input" type="text" name="user_phone" label="טלפון"></TextInput>
+          <TextArea className="contact_input" name="message" id="message" label="שתפו אותנו במה נוכל לעזור..." required></TextArea>
           <Button variant="contained" color="primary"  type="submit">שלח הודעה</Button>  
         </form>
       </div>  

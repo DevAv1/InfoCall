@@ -4,6 +4,7 @@ import { HomeHeader } from './HomeHeader';
 import { Services } from '../../common/Services';
 import { Team } from '../../common/Team';
 import { MailSender } from '../../business/MailSender';
+import { ClientsLogos } from '../../common/ClientsLogos';
 
 export const Home = () => {
     return (
@@ -11,6 +12,7 @@ export const Home = () => {
             <HomeHeader />
             <Services />
             <Team />
+            <ClientsLogos />
             <MailSender />
       </div>
     )

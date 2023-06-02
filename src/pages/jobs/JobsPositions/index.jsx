@@ -85,7 +85,7 @@ export const JobsPositions = () => {
               ברק
             </div>
             <i
-              class="fas fa-chevron-circle-down"
+              className="fas fa-chevron-circle-down"
               onClick={() => jobToggleHandler(0)}
             ></i>
           </div>
@@ -218,7 +218,7 @@ export const JobsPositions = () => {
               מובילה, בני ברק
             </div>
             <i
-              class="fas fa-chevron-circle-down"
+              className="fas fa-chevron-circle-down"
               onClick={() => jobToggleHandler(2)}
             ></i>
           </div>
@@ -284,7 +284,7 @@ export const JobsPositions = () => {
               דרוש /ה מנהלי /ות מוקד קשרי לקוחות למוקד שירותי בריאות של קופת חולים מובילה בבני ברק
             </div>
             <i
-              class="fas fa-chevron-circle-down"
+              className="fas fa-chevron-circle-down"
               onClick={() => jobToggleHandler(3)}
             ></i>
           </div>
@@ -354,7 +354,7 @@ export const JobsPositions = () => {
               דרוש נציג/ת קשרי לקוחות למוקד שירותי בריאות של קופת חולים מובילה בירושלים
             </div>
             <i
-              class="fas fa-chevron-circle-down"
+              className="fas fa-chevron-circle-down"
               onClick={() => jobToggleHandler(6)}
             ></i>
           </div>
@@ -417,7 +417,7 @@ export const JobsPositions = () => {
               דרוש /ה מנהלי /ות מוקד קשרי לקוחות למוקד שירותי בריאות של קופת חולים מובילה לירושלים
             </div>
             <i
-              class="fas fa-chevron-circle-down"
+              className="fas fa-chevron-circle-down"
               onClick={() => jobToggleHandler(4)}
             ></i>
           </div>
@@ -488,7 +488,7 @@ export const JobsPositions = () => {
                 דרוש מנהלי אזור שטח לקידום הצמיחה והשירות בכל הארץ
               </div>
               <i
-                class="fas fa-chevron-circle-down"
+                className="fas fa-chevron-circle-down"
                 onClick={() => jobToggleHandler(5)}
               ></i>
             </div>
