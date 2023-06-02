@@ -13,6 +13,12 @@ import Liat from '../../assets/team_members/liat.jpg';
 import Limor from '../../assets/team_members/limor.jpg';
 import Carmit from '../../assets/team_members/carmit.jpg';
 import Shay from '../../assets/team_members/shay.jpg';
+import New1 from '../../assets/team_members/new1.png';
+import New2 from '../../assets/team_members/new2.png';
+import New3 from '../../assets/team_members/new3.png';
+import New4 from '../../assets/team_members/new4.png';
+import { MemberProfile } from './MemeberProfile';
+import { TeamMemberList } from './utils';
 
 export const Team = () => {
 
@@ -20,8 +26,14 @@ export const Team = () => {
     <div className="team">
       <div className="team_title">הצוות שלנו</div>
       <div className="team-wrapper">
+        {
+          TeamMemberList.map((item) => (
+            <MemberProfile fullName={item.fullName} jobTitle={item.jobTitle} image={item.memberImageKey}/>
+          ))
+        }
 
-        <div className="team-member">
+
+        {/* <div className="team-member">
             <img src={AmitGridish} alt="AmitGridish"/>
             <div className="team-member-hover-bg"></div>
             <div className="team-desc">
@@ -65,14 +77,7 @@ export const Team = () => {
           </div>
         </div>
         
-        <div className="team-member">
-          <img src={Barak} alt="Barak" />
-          <div className="team-member-hover-bg"></div>
-          <div className="team-desc">
-            <div className="team-member-name">ברק בלסיאנו</div>
-            <div className="team-member-position">מנהל מוקד אשדוד</div>
-          </div>
-        </div>
+
 
         <div className="team-member">
             <img src={Carmit} alt="Carmit" />
@@ -83,22 +88,7 @@ export const Team = () => {
           </div>
         </div>
 
-        <div className="team-member">
-            <img src={Michael} alt="Michael" />
-            <div className="team-member-hover-bg"></div>
-          <div className="team-desc">
-            <div className="team-member-name">מיכאל בן דוד</div>
-            <div className="team-member-position">מנהל מוקד ירושלים</div>
-          </div>
-        </div>
-        <div className="team-member">
-            <img src={Limor} alt="Limor" />
-            <div className="team-member-hover-bg"></div>
-          <div className="team-desc">
-            <div className="team-member-name">ליאת להנר</div>
-            <div className="team-member-position">מנהלת מטה מקצועי</div>
-          </div>
-        </div>
+
         <div className="team-member">
             <img src={Shay}/>
             <div className="team-member-hover-bg"></div>
@@ -107,6 +97,39 @@ export const Team = () => {
             <div className="team-member-position">מנהלת מוקד נשר</div>
           </div>
         </div>
+
+        <div className="team-member">
+            <img src={New1}/>
+            <div className="team-member-hover-bg"></div>
+          <div className="team-desc">
+            <div className="team-member-name">שי שוורץ</div>
+            <div className="team-member-position">מנהלת מוקד נשר</div>
+          </div>
+        </div>
+        <div className="team-member">
+            <img src={New2}/>
+            <div className="team-member-hover-bg"></div>
+          <div className="team-desc">
+            <div className="team-member-name">שי שוורץ</div>
+            <div className="team-member-position">מנהלת מוקד נשר</div>
+          </div>
+        </div>
+        <div className="team-member">
+            <img src={New3}/>
+            <div className="team-member-hover-bg"></div>
+          <div className="team-desc">
+            <div className="team-member-name">שי שוורץ</div>
+            <div className="team-member-position">מנהלת מוקד נשר</div>
+          </div>
+        </div>
+        <div className="team-member">
+            <img src={New4}/>
+            <div className="team-member-hover-bg"></div>
+          <div className="team-desc">
+            <div className="team-member-name">שי שוורץ</div>
+            <div className="team-member-position">מנהלת מוקד נשר</div>
+          </div>
+        </div> */}
     
         
       </div>
