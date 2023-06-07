@@ -28,7 +28,7 @@
             background: white;
             z-index: 10;
             width: 200px;
-            padding: 20px 20px;
+            padding: 10px 20px;
             position: absolute;
             bottom: 0;
             left: 50%;
@@ -36,7 +36,7 @@
             border: 1px solid rgba(0, 0, 0, 0.041);
             box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
             transition: 0.2s ease-in-out;
-
+            
             .member-name {
                 font-size: 1.875rem;
                 font-weight: 400;
@@ -44,6 +44,7 @@
 
             .job-label {
                 font-size: 1.125rem;
+                text-align: center;
             }
         }
     }

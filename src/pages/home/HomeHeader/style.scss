@@ -49,8 +49,14 @@
     display: inline-block;
     padding: 20px 50px;
     width: 100%;
-    animation: buttonAnimation 2s infinite;
+    transition: 0.2s ease-in-out;
 
+    &.home-page {
+      animation: buttonAnimation 2s infinite;
+    }
+    &:hover {
+      border-radius: 40px 0 40px 0;
+    }
   }
   
   .banner-text p {
@@ -100,15 +106,12 @@
 
   @keyframes buttonAnimation {
     0% {
-      transform: scale(1);
       color: #333;
     }
     50% {
-      transform: scale(1.1);
       color: #fff;
     }
     100% {
-      transform: scale(1);
       color: #333;
     }
   }

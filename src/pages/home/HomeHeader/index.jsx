@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.scss';
-import { Link, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { Link } from 'react-scroll'
 import HomeCover from '../../../assets/covers/big_cover_home_mobail_b.png';
 
 export const HomeHeader = () => {
@@ -18,7 +18,7 @@ export const HomeHeader = () => {
               duration={1000}        
             >
             <a href="#box_container">
-              <div className="marked_text" >בואו להכיר אותנו</div>
+              <div className="marked_text home-page" >בואו להכיר אותנו</div>
             </a>
           </Link>
         </div>  

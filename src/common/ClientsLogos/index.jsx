@@ -10,9 +10,6 @@ export const ClientsLogos = () => {
     return (
         <div className="clients-logos">
             <DotsBorder icon={Icon1}/>
-            <div className="clients-logos-header">
-                הלקוחות שלנו
-            </div>
             <div className="slider">
                 <div className="slide-track">
                     {

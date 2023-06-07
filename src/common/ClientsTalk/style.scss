@@ -1,0 +1,71 @@
+.clients-talk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    max-width: 1218px;
+    margin: 0 auto;
+    padding: 160px 30px 100px 30px;
+    overflow: hidden;
+
+    .clients-talk-header {
+        font-size: 52px;
+        font-weight: bold;
+    }
+    .clients-talk-comments {
+        display: flex;
+        flex-direction: column;
+        padding-top: 24px;
+        gap: 12px;
+        width: 100%;
+        
+        .comment-show-animation {
+            transform: translateX(0%) !important;
+            opacity: 1 !important;
+        }
+        .client-comment-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+            background: white;
+            height: 200px;
+            flex: 1;
+            max-width: 500px;
+            min-height: 200px;
+            padding: 12px;
+            box-shadow: 0px -6px 10px rgba(255, 255, 255, 1), 0px 4px 25px rgba(0, 0, 0, 0.5);
+            position: relative;
+            transition: 0.2s ease-in-out;
+            opacity: 0;
+            
+            &:nth-child(odd) {
+                align-self: flex-end;
+                border-right: 3px solid #00b3c1;
+                transform: translateX(-100%);
+                border-radius: 0 0 20px 0;
+            }
+            &:nth-child(even) {
+                border-left: 3px solid #00b3c1;
+                transform: translateX(100%);
+                border-radius: 0 0 0 20px;
+            }
+            .client-comment-description {
+                position: relative;
+        
+            }
+            .client-comment-footer {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .client-comment-company {
+                    > img {
+                        max-width: 50px;
+                        max-height: 50px;
+                        object-fit: contain;
+                    }
+                }
+            }
+        }
+    }
+}

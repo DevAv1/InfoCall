@@ -2,11 +2,15 @@
     width: 80%;
     margin: 0 auto;
     padding: 100px 0;
+
+    @media screen and (max-width: 718px) {
+      padding: 40px 0;
+    }
   }
   
   #services_title {
     text-align: center;
-    font-size: 26px;
+    font-size: 52px;
     font-weight: bold;
   }
   
@@ -21,6 +25,8 @@
     flex-direction: row;
     justify-content: flex-start;
     padding:0px 20px;
+    opacity: 0;
+    transition: 0.2s ease-in-out;
   }
   
   .info_box:nth-child(even) {
@@ -32,6 +38,9 @@
     flex-direction: column;
     justify-content: center;
     flex: 1;
+  }
+  .info-box-enter-animation {
+    opacity: 1;
   }
   .info_box_img {
     flex: 1;
