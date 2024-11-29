@@ -1,69 +1,72 @@
 .team {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .team_title {
-    display: flex;
-    justify-content: center;
-    padding: 0px 0 50px 0;
-    font-size: 52px;
-    font-weight: bold;
-  }
-  
-  .team-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    width: 60%;
-    padding: 0 auto;
-    justify-content: center;
-    align-items: center;
-    column-gap: 30px;
-    row-gap: 80px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 
-    @media screen and (max-width: 1700px) {
-      width: 100%
+.team_title {
+  display: flex;
+  justify-content: center;
+  padding: 0px 0 50px 0;
+  font-size: 52px;
+  font-weight: bold;
+}
 
-    }
+.team-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  @media screen and (max-width: 768px) {
+    gap: 12px;
   }
-  
-  .team-desc {
-    text-align: center;
+
+  @media screen and (max-width: 1700px) {
+    width: 100%
+
+  }
+}
+
+.team-desc {
+  text-align: center;
+  padding: 10px 0;
+  transition: 0.2s ease-in-out;
+}
+
+.team-member {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 260px;
+  height: 300px;
+
+  .team-member-name {
+    font-weight: bolder;
+  }
+
+  .team-member-position {
+    min-width: 180px;
     padding: 10px 0;
-    transition: 0.2s ease-in-out;
   }
-  
-  .team-member {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 260px;
-    height: 300px;
-    .team-member-name {
-      font-weight: bolder;
-    }
-    
-    .team-member-position {
-      min-width: 180px;
-      padding: 10px 0;
-    }
-  }
-  
-  .team-wrapper img {
-    position: relative;
-    max-width: 100%;
-    min-height: 300px;
-    object-fit: cover;
-    transition: 0.2s ease-in-out;
-  }
-  .team-member-hover-bg {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 0;
-    background-color: rgba(0, 0, 0, 0.26);
-    transition: 0.2s ease-in-out;
-  }
+}
+
+.team-wrapper img {
+  position: relative;
+  max-width: 100%;
+  min-height: 300px;
+  object-fit: cover;
+  transition: 0.2s ease-in-out;
+}
+
+.team-member-hover-bg {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 0;
+  background-color: rgba(0, 0, 0, 0.26);
+  transition: 0.2s ease-in-out;
+}

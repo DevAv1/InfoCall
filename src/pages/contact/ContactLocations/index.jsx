@@ -33,6 +33,27 @@ export const ContactLocations = () => {
           <div className="location-address">האורגים, 11</div>
           <div className="location-p-number">053-5328882</div>
         </div>
+
+        <div className="location">
+          <i className="fas fa-map-marker-alt"></i>
+          <div className="location-title">נתניה</div>
+          <div className="location-address">המלאכה, 8</div>
+          <div className="location-p-number">053-5328882</div>
+        </div>
+
+        <div className="location">
+          <i className="fas fa-map-marker-alt"></i>
+          <div className="location-title">ראשל"צ</div>
+          <div className="location-address">אצ"ל, 53</div>
+          <div className="location-p-number">053-5328882</div>
+        </div>
+
+        <div className="location">
+          <i className="fas fa-map-marker-alt"></i>
+          <div className="location-title">נשר</div>
+          <div className="location-address">דרך השלום, 9</div>
+          <div className="location-p-number">053-5328882</div>
+        </div>
       </div>
     </div>
   );

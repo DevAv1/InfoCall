@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import '../styles/privacypolicy.css'
 import Dialog from '@material-ui/core/Dialog';
 import DialogActions from '@material-ui/core/DialogActions';

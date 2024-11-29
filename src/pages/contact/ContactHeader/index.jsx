@@ -8,7 +8,7 @@ export const ContactHeader = () => {
     <div className="contact-hero">
       <div className="contact-hero-container">
         <img className="contact_cover" src={ContactMobileCover} alt="mobile cover"/>
-        <img className="contact_mobile_cover__mobile" src={ContactMobileCoverMobile}/>
+        <img className="contact_mobile_cover__mobile" src={ContactMobileCoverMobile} alt="contactmobile_cover"/>
         <div className="contact-banner-text">
           בואו נעשה דברים גדולים
         </div>

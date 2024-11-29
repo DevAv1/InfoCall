@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useContext } from 'react'
+import React from 'react'
 import './style.scss';
 import { Controller, Scene } from 'react-scrollmagic';
 import { DotsBorder } from '../../components/DotsBorder';
@@ -12,6 +12,7 @@ import Icon1 from '../../assets/icon_1.png'
 import Icon2 from '../../assets/icon_2.png'
 import Icon3 from '../../assets/icon_3.png'
 import Icon4 from '../../assets/icon_4.png'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export const Services = () => {
 
@@ -23,7 +24,7 @@ export const Services = () => {
           <Scene classToggle="info-box-enter-animation" duration={0}>
             <div className="info_box">
               <div className="info_box_img">
-                <img src={Sales} />
+                <LazyLoadImage effect="blur" src={Sales} />
               </div>
               <DotsBorder icon={Icon1}/>
               <div className="info_box_content">
@@ -40,7 +41,7 @@ export const Services = () => {
           <Scene classToggle="info-box-enter-animation" duration={0}>
           <div className="info_box" >
             <div className="info_box_img">
-                <img src={Shirut} />
+                <LazyLoadImage effect="blur" src={Shirut} />
               </div>
               <DotsBorder icon={Icon2}/>
               <div className="info_box_content">
@@ -56,7 +57,7 @@ export const Services = () => {
           <Scene classToggle="info-box-enter-animation" duration={0}>
             <div className="info_box" >
               <div className="info_box_img">
-                <img src={Shimur} />
+                <LazyLoadImage effect="blur" src={Shimur} />
               </div>
               <DotsBorder icon={Icon3}/>
               <div className="info_box_content">
@@ -73,7 +74,7 @@ export const Services = () => {
           <Scene classToggle="info-box-enter-animation" duration={0}>
             <div className="info_box">
               <div className="info_box_img">
-                <img src={Shetach} />
+                <LazyLoadImage effect="blur" src={Shetach} />
               </div>
               <DotsBorder icon={Icon4}/>
               <div className="info_box_content">
@@ -90,17 +91,18 @@ export const Services = () => {
           <Scene classToggle="info-box-enter-animation" duration={0}>
             <div className="info_box">
               <div className="info_box_img">
-                <img className="tech-img" src={Tech} />
+                <LazyLoadImage effect="blur" className="tech-img" src={Tech} />
               </div>
-              <DotsBorder icon={Icon4}/>
+              <DotsBorder icon={Icon1}/>
               <div className="info_box_content">
-                <h2 >תחליף טכנולוגי לנציגים ונתבים - השירות מאפשר מתן מענה טלפוני באמצעות בינה מלאכותית</h2>
+                <h2 >תחליף טכנולוגי לנציגים ונתבים</h2>
                 <p>
-                  מענה מיידי ללא כל זמן המתנה 24/7
-                  שיפור משמעותי של זמני המתנה במוקד
-                  שיטוח תפריטים במענה קולי, העברה ליעד הנכון בצעד אחד בלבד
-                  הגדלת השירות העצמי ללקוח באמצעות דיבור חופשי
-                  יכולת לטפל באותה שיחה במספר בקשות של הלקוח
+                  השירות מאפשר מתן מענה טלפוני באמצעות בינה מלאכותית.<br/>
+                  מענה מיידי ללא כל זמן המתנה 24/7.
+                  שיפור משמעותי של זמני המתנה במוקד,
+                  שיטוח תפריטים במענה קולי, העברה ליעד הנכון בצעד אחד בלבד,
+                  הגדלת השירות העצמי ללקוח באמצעות דיבור חופשי,
+                  יכולת לטפל באותה שיחה במספר בקשות של הלקוח,
                   תמיכה במגוון ערוצי קול וטקסט בטלפון, WHATSAPP,MESSENGER  ועוד..
                 </p>
               </div>
@@ -111,9 +113,9 @@ export const Services = () => {
           <Scene classToggle="info-box-enter-animation" duration={0}>
             <div className="info_box">
               <div className="info_box_img">
-                <img className="AI-img" src={AI} />
+                <LazyLoadImage effect="blur" className="AI-img" src={AI} />
               </div>
-              <DotsBorder icon={Icon4}/>
+              <DotsBorder icon={Icon2}/>
               <div className="info_box_content">
                 <h2 >מערכת טכנולוגית להגדלת ביקוש למכירות - Pablico</h2>
                 <p>

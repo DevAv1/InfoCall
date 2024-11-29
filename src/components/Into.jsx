@@ -6,7 +6,7 @@ export const Intro = () => {
   return (
     <div className="intro-container">
       <div className="intro-banner">
-        <img src={Logo} />     
+        <img src={Logo} alt="logo"/>
         <div className="welcome">Welcome</div> 
       </div>
     </div>
