@@ -49,7 +49,7 @@ export const Footer = () => {
               צור קשר
             </li>
             <li>המלאכה 23, ראש העין</li>
-            <li ><a href="tel:+972-54815117">054-4815117</a></li>
+            <li ><a href="tel:+972-74-7077200">074-7077200</a></li>
             <li>Gius@infocall.co.il</li>
             <li>מחלקה פיננסית</li>
             <li>Finance@infocall.co.il</li>

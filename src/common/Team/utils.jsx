@@ -10,15 +10,16 @@ import Liat from "../../assets/team_members/limor.jpg";
 import Limor from "../../assets/team_members/liat.jpg";
 import Carmit from "../../assets/team_members/carmit.jpg";
 import ShayB from "../../assets/team_members/SHAI.png";
-import ShayA from "../../assets/team_members/shay.jpg";
-import Hila from "../../assets/team_members/hilaHaviv.jpg";
-import Ricki from "../../assets/team_members/Ricki.jpg";
+import ShayA from "../../assets/team_members/shaySwartz.png";
+import Hila from "../../assets/team_members/hilaHaviv.png";
+import Ricki from "../../assets/team_members/rikiAbitbul.jpg";
 import Shirly from "../../assets/team_members/Shirli.jpg";
-import Efi from "../../assets/team_members/Efi.jpg";
+import Efi from "../../assets/team_members/efiGold.jpg";
 import MoranHotobli from "../../assets/team_members/moranHotobli.jpg";
 import OrtalYoneni from "../../assets/team_members/ortalYeneni.jpg";
 import ElizabetBenjamin from "../../assets/team_members/elizabetBenjamin.jpg";
 import AvielNahmias from "../../assets/team_members/avielNahmias.png";
+import Yarin from "../../assets/team_members/yarinPerez.png";
 
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
@@ -77,6 +78,14 @@ export const TeamMemberDictionary = {
       className="profile-image"
       src={Yitav}
       alt="Yitav"
+    />
+  ),
+  Yarin: (
+    <LazyLoadImage
+      effect="blur"
+      className="profile-image"
+      src={Yarin}
+      alt="Yarin"
     />
   ),
   Barak: (
@@ -218,6 +227,11 @@ export const TeamMemberList = [
     fullName: "ייטב חדד",
     jobTitle: "מנהל הדרכה ופיתוח ארגוני",
     memberImageKey: "Yitav",
+  },
+  {
+    fullName: "ירין פרץ",
+    jobTitle: "מנהלת מחלקת גיוס",
+    memberImageKey: "Yarin",
   },
   {
     fullName: "שירלי בן שמעון",
