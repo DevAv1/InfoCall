@@ -10,7 +10,7 @@ export const ContactLocations = () => {
           <div className="location-title">ראש העין</div>
           <div className="location-address">המלאכה, 23 - מטה</div>
           {/* <div className="location-address">מטה</div> */}
-          <div className="location-p-number">053-5328882 </div>
+          <div className="location-p-number">074-7077200 </div>
         </div>
 
         <div className="location">

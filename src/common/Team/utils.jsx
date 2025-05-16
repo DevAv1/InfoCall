@@ -205,7 +205,7 @@ export const TeamMemberDictionary = {
 export const TeamMemberList = [
   {
     fullName: "עמית גרידיש",
-    jobTitle: 'יו"ר ובעלים',
+    jobTitle: 'יו"ר',
     memberImageKey: "AmitGridish",
   },
   {
